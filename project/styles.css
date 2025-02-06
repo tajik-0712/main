@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Unbounded:wght@200..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #202020;
+    color: #fafafa;
+    font-family: "Inter", serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+}
+
+.container {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.banner-libels {
+    margin-top: 120px;
+    display: flex;
+    gap: 6px;
+}
+
+.lable {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 12px 10px;
+    border-radius: 10px;
+}
+
+.blue {
+    background: #173CF5;
+}
+
+.purple {
+    background: #9745FF;
+}
+
+.banner-tile {
+    margin-top: 24px;
+    font-size: 68px;
+    font-weight: 600;
+    line-height: 90%;
+}
+
+.banner-title span:last-of-type {
+    opacity: 50%;
+}
+
+.banner-title span:first-of-type {
+    font-style: italic;
+}
+
+.banner {
+    position: relative;
+}
+
+.banner-circle-1, .banner-circle-2 {
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    border-radius: 100vh;
+    filter: blur(40px);
+}
+
+.banner-circle-1 {
+    top: -80px;
+    left: -20px;
+    background-color: #173CF5;
+    z-index: -1;
+}
