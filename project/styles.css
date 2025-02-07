@@ -14,7 +14,7 @@ body {
 
 header {
     position: fixed;
-    top: 0;
+    top: 32px;
 }
 
 .container {
@@ -29,6 +29,7 @@ header {
 }
 
 .lable {
+    letter-spacing: .5px;
     font-size: 16px;
     font-weight: 600;
     padding: 8px 12px 10px;
@@ -43,9 +44,9 @@ header {
     background: #9745FF;
 }
 
-.banner-tile {
+.banner-title {
     margin-top: 24px;
-    font-size: 68px;
+    font-size: 61px;
     font-weight: 600;
     line-height: 90%;
 }
@@ -71,8 +72,44 @@ header {
 }
 
 .banner-circle-1 {
-    top: -80px;
+    top: 80px;
     left: -20px;
     background-color: #173CF5;
     z-index: -1;
+}
+
+.banner-circle-2 {
+    left: 220px;
+    top: 120px;
+    z-index: -10;
+    background-color: purple;
+}
+
+.banner-text {
+    margin-top: 48px;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.banner-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 76px;
+}
+
+.banner-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #fafafa;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    border-radius: 14px;
+    width: 350px;
+    height: 56px;
 }
